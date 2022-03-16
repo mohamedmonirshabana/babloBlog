@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const Home = () => {
-    const [blogs, setBlogs] = useState([
+    const [blogs] = useState([
         { title: 'Back End Developer', body: 'Loren sub...', author: 'Moahmed', id: 1 },
         { title: 'Front End Developer', body: 'Loren sub...', author: 'Hamed', id: 2 },
         {title: 'Mobile Developer', body: 'Loren sub...', author: 'Karen', id: 3 }
