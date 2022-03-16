@@ -14,6 +14,7 @@ function App() {
         <h1>{title}</h1>
         <p>Liked {likes} times</p>
         {/* <p>{ person }</p> */}
+        <p>{ 10 }</p>
       </div>
     </div>
   );
