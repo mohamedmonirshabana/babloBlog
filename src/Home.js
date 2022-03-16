@@ -4,10 +4,17 @@ const Home = () => {
         console.log('hello , ninjas');
     };
 
+    const handleClickAgain = (name) => {
+        console.log('Hello ' + name);
+     };
+
     return ( 
         <div className="home">
             <h2>Home Page</h2>
             <button onClick={handleClick}>click me</button>
+            <button onClick={() => {
+                handleClickAgain('mario');
+            }}>Click me again</button>
         </div>
      );
 }
