@@ -1,0 +1,16 @@
+{
+    "Blogs":[
+        {
+            "title":"Back End Developer",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in egestas est. Suspendisse potenti. Nullam a nulla non massa aliquet consectetur et non metus. Donec eu scelerisque lectus. Fusce nec nisl sodales",
+            "author":"Mohamed",
+            "id":1
+        },
+        {
+            "title":"Front End Developer",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in egestas est. Suspendisse potenti. Nullam a nulla non massa aliquet consectetur et non metus. Donec eu scelerisque lectus. Fusce nec nisl sodales",
+            "author":"Gamela",
+            "id":2
+        }
+    ]
+}
