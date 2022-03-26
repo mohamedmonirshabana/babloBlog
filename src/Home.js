@@ -14,6 +14,7 @@ const Home = () => {
             .then(data => {
                 console.log(data);
                 setBlogs(data);
+                setIsPending(false);
             });
     },[]);
     
