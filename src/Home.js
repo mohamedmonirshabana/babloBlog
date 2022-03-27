@@ -8,7 +8,7 @@ const Home = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch('http://localhost:8000/blogs')
+            fetch('http://localhost:8000/blogss')
                 .then(res => {
                     console.log(res);
                     if (!res.ok) {
