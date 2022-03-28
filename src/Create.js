@@ -32,7 +32,9 @@ const Create = () => {
                     <option value="mario">mario</option>
                 </select>
                 <button>Add Blog</button>
-                <p>{ title }</p>
+                <p>{title}</p>
+                <p>{body}</p>
+                <p>{ author }</p>
             </form>
         </div>
      );
